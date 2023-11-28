@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="job.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header section-->
+<header class="header">
+    <section class="flex">
+        <div id="menu-btn" class="bx bx-menu"></div>
+        <a href="home.html" class="logo"><i class='bx bx-hard-hat'></i><i class="bx bxs-briefcase"></i>
+        JobFinder.</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about us</a>
+            <a href="job.html">all jobs</a>
+            <a href="contact.html">contact us</a>
+            <a href="login.html">account</a>
+        </nav>
+
+        <a href="#" class="btn" style="margin-top: 0;">Post job</a>
+
+    </section>
+</header>
+
+<!--Home-->
+<div class="home-container">
+    <div class="home">
+        <form action="" method="post">
+            <h3>find your next job here</h3>
+            <p>job title <span>*</span></p>
+            <input type="text" name="title" placeholder="keyword, category or company" required maxlength="20" class="input">
+            <p>job location <span>*</span></p>
+            <input type="text" name="location" placeholder="city, state or country" required maxlength="50" class="input">
+            <input type="submit" class="btn" value="search job" name="search">
+        </form>
+    </div>
+</div>
+
+<!--Category-->
+<section class="category">
+    <h1 class="heading">Job Sectors</h1>
+    <div class="box-container">
+        <a href="#" class="box">
+            <i class='bx bxs-credit-card'></i>
+            <div>
+                <h3>finance</h3>
+                <span> 988 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-food-menu'></i>
+            <div>
+                <h3>food industry</h3>
+                <span> 750 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-badge-dollar'></i>
+            <div>
+                <h3>Sales Executive</h3>
+                <span> 890 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class="bx bxs-briefcase-alt"></i>
+            <div>
+                <h3>management</h3>
+                <span> 275 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-hard-hat'></i>
+            <div>
+                <h3>construction</h3>
+                <span> 586 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-store'></i>
+            <div>
+                <h3>Retail</h3>
+                <span> 300 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class="bx bxs-briefcase"></i>
+            <div>
+                <h3>Hospitality</h3>
+                <span> 820 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bx-child'></i>
+            <div>
+                <h3>Adult social care</h3>
+                <span> 807 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-cable-car'></i>
+            <div>
+                <h3>Transport and Logistics</h3>
+                <span> 250 jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <i class='bx bxs-bank'></i>
+            <div>
+                <h3>public sector</h3>
+                <span> 790 jobs</span>
+            </div>
+        </a>
+
+        
+
+    </div>
+</section>
+
+<!--jobs-->
+<section class="job-container">
+    <h1 class="heading">latest jobs</h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <div class="company">
+                <img src="images/office.png" alt="">
+                <div>
+                    <h3>management</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">General Manager</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>New York, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span> 20k - 40k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span>day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/adult.png" alt="">
+                <div>
+                    <h3>Adult Social Care</h3>
+                    <span>8 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Care worker</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>Arizona, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>500 - 1k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span>day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/construction.png" alt="">
+                <div>
+                    <h3>construction</h3>
+                    <span>18 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Builder</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>Colorado, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>1k - 3k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span>day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/chef.png" alt="">
+                <div>
+                    <h3>Food Industry</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">professional chef</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>Georgia, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>500 - 2k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span>day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/wiater.png" alt="">
+                <div>
+                    <h3>Hospitality</h3>
+                    <span>3 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Waiter</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>Kansas, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span> 500 - 1k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span>schedule</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/truck.png" alt="">
+                <div>
+                    <h3>transport and logistics</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Truck Driver</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>New York, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>6k - 10k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>full-time</span></p>
+                <p><i class="bx bxs-time"></i><span>fixed</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/financial analyst.png" alt="">
+                <div>
+                    <h3>Finance</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title"> Financial Analyst</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>illnios, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span> 1k -3k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>internship</span></p>
+                <p><i class="bx bxs-time"></i><span>full time</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/relationship.png" alt="">
+                <div>
+                    <h3>Public sector</h3>
+                    <span>10 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">relationship manager</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>New York, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>2k - 5k</span></p>
+                <p><i class="bx bxs-briefcase"></i><span>part-time</span></p>
+                <p><i class="bx bxs-time"></i><span></span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+                <img src="images/retail.png" alt="">
+                <div>
+                    <h3>retail</h3>
+                    <span>6 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Business sales associate</h3>
+            <p class="location"><i class='bx bxs-map'></i><span>New York, United States.</span></p>
+            <div class="tags">
+                <p><i class='bx bx-dollar'></i><span>700 -2k </span></p>
+                <p><i class="bx bxs-briefcase"></i><span>full-time</span></p>
+                <p><i class="bx bxs-time"></i><span>internship</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button><i class='bx bx-heart' name="save"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="job.html" class="btn">view all jobs</a>
+    </div>
+</section>
+
+
+    
+
+
+
+
+
+
+<!--Footer-->
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html"><i class='bx bxs-chevron-right'></i>Home</a>
+            <a href="about.html"><i class='bx bxs-chevron-right'></i>About</a>
+            <a href="contact.html"><i class='bx bxs-chevron-right'></i>Contact Us</a> 
+            <a href="job.html"><i class='bx bxs-chevron-right'></i>All Jobs</a>
+            <a href="#"><i class='bx bxs-chevron-right'></i>filter search</a>
+
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"><i class='bx bxs-chevron-right'></i>account</a>
+            <a href="login.html"><i class='bx bxs-chevron-right'></i>login</a>
+            <a href="register.html"><i class='bx bxs-chevron-right'></i>register</a>
+            <a href="#"><i class='bx bxs-chevron-right'></i>post job</a>
+            <a href="#"><i class='bx bxs-chevron-right'></i>dashboard</a>
+
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class='bx bxl-twitter'></i>Twitter</a>
+            <a href="#"><i class='bx bxl-facebook'></i>Facebook</a>
+            <a href="#"><i class='bx bxl-instagram'></i>Instagram</a> 
+            <a href="#"><i class='bx bxl-linkedin'></i>LinkedIn</a>
+            <a href="#"><i class='bx bxl-whatsapp'></i>Whatsapp</a>
+          
+
+        </div>
+
+    </section>
+
+    <div class="credit">&copy; copyright @ 2023 by <span>ojeba ebenezer.</span></div>>
+
+    </div>
+
+</footer>
+
+    <!--JavaScript File.-->
+    <script src="script.js"></script>
+</body>
+</html>

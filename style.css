@@ -568,31 +568,26 @@ section{
     }
 }
 @media (max-width: 462px){
-    .home-content h1{
+    .home-content{
         font-size: 2rem;
         margin: 2rem 0;
-        padding: 5rem 9rem 0 0;
+        padding: 5rem 5rem 0 0;
     }
-    
+    .text-animate{
+        top: 20%;
+    }
     .education{
         padding: 10rem 4% 5rem 5%;
     }
-    .home{
-        
-            background: url('images/headshot2.jpg') no-repeat;
-            background-size: contain;
-            
-    }
+    
     .home-content p{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
+        line-height: 1.6;
     }
     .home-sci{
-        margin: 7rem;
-        justify-content:end;
+        top: 80%;
     }
-    .btn-box{
-        display: none;
-    }
+
     .footer{
         flex-direction: column-reverse;
     }
@@ -600,21 +595,28 @@ section{
         text-align: center;
     }
 }
-@media(max-width: 371px){
+@media(max-width: 376px){
     .home{
-        justify-content: center;
-        background-position: center;
+        background: url('images/headshot2.jpg') no-repeat;
+        background-size: calc(200%);
     }
+
     .home-content p{ 
         line-height: 1.5;
-
+        font-size: 2rem;
+        margin: 2rem 0;
+        padding-bottom: 3rem;
+    }
+    .btn-box{
+        margin-bottom: 5rem;
+    }
+    .home-sci{
+        margin-top: 9rem;
     }
     
     .home-content{
         display: flex;
-        align-items: center;
         flex-direction: column;
-        text-align: center;
     }
     
     
