@@ -7,6 +7,7 @@
     outline: none;
     font-family: 'Ysabeau', sans-serif;
     text-decoration: none;
+    font-size: large;
 }
 :root{
     --bg-color: #222222;
@@ -15,7 +16,6 @@
     --main-color: #afab8f;
 }
 html{
-    font-size: 62.5%;
     overflow-x: hidden;   
 }
 body{
@@ -507,7 +507,7 @@ section{
 
 
 .project {
-    padding: 4rem 2rem;
+    padding: 2rem 9rem;
     background-color: var(--bg-color);
 }
 
@@ -546,11 +546,11 @@ section{
 }
 
 .container-header {
-    background-color:var(--secondary-color);
-    color: white;
+    background-color: burlywood;
+    color: black;
     padding: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: start;
 }
 
 .container img {
@@ -572,7 +572,7 @@ section{
 
 .project-details h3 {
     color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -580,7 +580,6 @@ section{
 .project-description {
     color: var(--text-color);
     margin-bottom: 1rem;
-    font-size: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -596,7 +595,7 @@ section{
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .features {
@@ -604,7 +603,14 @@ section{
     padding-left: 1.5rem;
     color: var(--text-color);
     line-height: 1;
-    font-size: 1rem;
+}
+
+.features li{
+    font-size: 2rem;
+}
+.container{
+    gap: 10px;
+    margin-top: 7rem;
 }
 
 .container a {
@@ -614,14 +620,19 @@ section{
     transition: color 0.3s ease;
     align-self: center;
     margin-top: auto;
-    padding: 0.75rem;
-    font-size: 1.5rem;
+    padding: 1rem;
+    width: max-content;
+    border: 1px solid var(--main-color);
+    border-width: 2px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
     text-align: center;
 }
 
 .container a:hover {
     color: var(--text-color);
-    text-decoration: underline;
+    background-color: #afab8f;
+    
 }
 
 /* Responsive Layout */
