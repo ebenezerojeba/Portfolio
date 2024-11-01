@@ -507,7 +507,7 @@ section{
 
 
 .project {
-    padding: 2rem 9rem;
+    padding: 2rem 4rem;
     background-color: var(--bg-color);
 }
 
@@ -672,6 +672,7 @@ section{
 .container img {
     height: 150px;
 }
+
 }
 
 /* media queries */
