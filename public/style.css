@@ -581,6 +581,8 @@ section{
     color: var(--text-color);
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.9rem;
+    line-height: 1.4;
 }
 
 .technologies {
@@ -595,7 +597,7 @@ section{
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 .features {
@@ -606,7 +608,7 @@ section{
 }
 
 .features li{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .container{
     gap: 10px;
@@ -620,13 +622,14 @@ section{
     transition: color 0.3s ease;
     align-self: center;
     margin-top: auto;
-    padding: 1rem;
+    padding: .6rem;
     width: max-content;
     border: 1px solid var(--main-color);
     border-width: 2px;
     margin-bottom: 2rem;
     border-radius: 10px;
     text-align: center;
+    font-size: 2rem;
 }
 
 .container a:hover {
