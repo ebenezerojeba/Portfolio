@@ -414,7 +414,7 @@ section{
     width: 95%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 91%;
+    width: 94%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 90%;
@@ -423,7 +423,13 @@ section{
     width: 85%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
-    width: 80%;
+    width: 85%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span{
+    width: 85%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span{
+    width: 90%;
 }
 .footer{
     display: flex;
@@ -441,69 +447,7 @@ section{
     text-align: center;
 }
 
-/* PORTFOLIO */
-/* .project .heading{
-    color: var(--main-color);
-}
-.project .box-container{
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
-    gap: 1rem;
-}
-.project .box-container .box{
-    border: var(--border);
-}
-.project .box-container .box h2{
-    font-size: 2rem;
-}
-.project .box-container .box .image{
-    height: auto;
-    overflow: hidden;
-    width: 100%;
-}
-.project .box-container .box .image img{
-    height: auto;
-    object-fit: cover;
-    width: 100%;
-}
-.project .box-container .box:hover .image img{
-    transform: scale(1.2);
-}
-.project .box-container .box .content{
-    padding: 2rem;
-}
-.project .box-container .box .content .title{
-    font-size: 2.5rem;
-    line-height: 1.5;
-    color: var(--main-color);
-}
-.project .box-container .box .content .title:hover{
-    color: var(--text-color);
-}
-.project .container{
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-    margin-top: 3rem;
-}
-.project .container img{
-    width: 100%;
-    height: auto;
-}
-.project .container h2{
-    font-size: 3rem;
-    color: burlywood;
-    text-align: center;
-    margin-top: 2rem;
-}
-.project .container h3 a{
-    font-size: 2.7rem;
-    padding-top: 1rem;
-    text-transform: capitalize;
-    color:var(--text-color);
 
-} */
 
 
 .project {
