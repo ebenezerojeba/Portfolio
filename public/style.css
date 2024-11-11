@@ -627,10 +627,20 @@ section{
     html{
         font-size: 55%;
     }
+    .home{
+        background: url('images/headshot2.jpg') no-repeat;
+        background-size: calc(200%);
+        
+    }
 }
 @media (max-width: 991px) {
     .header {
         padding: 2rem 4%;
+    }
+    .home{
+        background: url('images/headshot2.jpg') no-repeat;
+        background-size: calc(200%);
+        
     }
     section{
         padding: 10rem 4% 2rem;
@@ -671,7 +681,8 @@ section{
     }
     .home{
         background: url('images/headshot2.jpg') no-repeat;
-        background-size: fill;
+        background-size: calc(200%);
+        
     }
     .home-content p{
         font-size: 2.4rem;
@@ -682,10 +693,10 @@ section{
     }
     .home-sci{
         bottom: 2rem;
-        margin-top: 2rem;
+        top: 35%;
     }
     .home-sci a{
-        font-size: re;
+        font-size: 1rem;
     }
     .footer{
         display: flex;
@@ -749,7 +760,10 @@ section{
         
     }
     .home-sci{
-        top: 20%;
+        top: 30%;
+        gap: .2rem;
+        display: flex;
+        border-radius: 50%;
     }
 
     .footer{
@@ -765,7 +779,7 @@ section{
         background-size: calc(200%);
     }
     .home-sci{
-        top: 10%;
+        top: 19%;
     }
     .home-content p{ 
         line-height: 1.5;
