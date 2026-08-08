@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ebenezer Ojeba - Full Stack Developer Portfolio showcasing web development projects" />
+    <meta property="og:title" content="Ebenezer Ojeba - Portfolio" />
+    <meta property="og:description" content="Full Stack Developer specializing in React, Node.js, and modern web technologies" />
     <title>Ebenezer's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Gabarito&family=Poppins&family=Ysabeau&display=swap" rel="stylesheet">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Ebenezer Ojeba",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://your-portfolio.com",
+        "sameAs": [
+            "https://github.com/ebenezerojeba",
+            "https://twitter.com/Ebeneze92153397",
+            "www.linkedin.com/in/ebenezer-ojeba-12b3b2281"
+        ]
+    }
+    </script>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Oj.</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-        <nav class="navbar" id="navbar">
-            <a href="#home" class="active">Home</a>
+    <!-- HEADER -->
+    <header class="header" role="banner">
+        <a href="#" class="logo" aria-label="Homepage">Oj.</a>
+        <div class="bx bx-menu" id="menu-icon" role="button" aria-label="Toggle navigation menu" tabindex="0"></div>
+        <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+            <a href="#home" class="active" aria-current="page">Home</a>
             <a href="#about">About</a>
             <a href="#education">Resume</a>
             <a href="#skills">Statistics</a>
@@ -24,97 +47,81 @@
         </nav>
     </header>
 
-
-    <section class="home" id="home">
+    <!-- HOME SECTION -->
+    <section class="home" id="home" aria-labelledby="home-title">
         <div class="home-content">
             <div class="text-animate">
-                <h3>Software Developer</h3>
+                <h3 id="home-title">Software Developer</h3>
             </div>
             <p>A passionate software developer with a keen eye for creating engaging and intuitive user experiences. The journey of becoming a fullstack developer, began with a curiosity for turning ideas into visually appealing and functional websites. Check out my projects below!</p>
-            
             <div class="btn-box">
-                <a href="/Ebenezer-Ojeba.pdf" 
-                   class="btn btn-primary download-btn" 
-                   download="Ebenezer-Ojeba-CV.pdf"
-                   aria-label="Download my CV">
+                <a href="/Ebenezer-Ojeba.pdf" class="btn btn-primary download-btn" download="Ebenezer-Ojeba-CV.pdf" aria-label="Download my CV">
                     <i class="bx bx-download" aria-hidden="true"></i>
                     Download CV
                 </a>
-            </div> 
+            </div>
         </div>
-
-        <div class="home-sci">
-            <a href="https://github.com/ebenezerojeba"><i class='bx bxl-github'></i></a>
-            <a href="https://twitter.com/Ebeneze92153397"><i class='bx bxl-twitter'></i></i></a>
-            <a href="www.linkedin.com/in/ebenezer-ojeba-12b3b2281"><i class='bx bxl-linkedin'></i></i></a>
-            <a href="https://www.instagram.com/p/CNxIvTmjQ40/"><i class='bx bxl-instagram'></i></i></a>
-            <a href="https://wa.link/sg3frs"><i class='bx bxl-whatsapp'></i></i></a>
+        <div class="home-sci" aria-label="Social media links">
+            <a href="https://github.com/ebenezerojeba" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://twitter.com/Ebeneze92153397" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            <a href="www.linkedin.com/in/ebenezer-ojeba-12b3b2281" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/p/CNxIvTmjQ40/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            <a href="https://wa.link/sg3frs" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
         </div>
-
-        <div class="home-imgHover">
-
-        </div>
+        <div class="home-imgHover"></div>
     </section>
 
-    <!-- About -->
-    <section class="about" id="about">
-        <h2 class="heading"><span>About</span></h2>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about" aria-labelledby="about-title">
+        <h2 class="heading" id="about-title"><span>About</span></h2>
         <div class="about-img">
-            <img src="images/headshot.jpeg" alt="">
+            <img src="images/headshot.jpeg" alt="Ebenezer Ojeba - Full Stack Developer" loading="lazy" />
             <span class="circle-spin"></span>
         </div>
         <div class="about-content">
             <h3>Ojeba Ebenezer</h3>
-            <p>I'm a frontend developer with a solid foundation in HTML, CSS, and JavaScript, and expertise in modern frameworks like React and Node.js. My passion lies in creating seamless, responsive interfaces and ensuring that each project delivers an engaging user experience. Currently, I’m a frontend developer at AEO Solicitors, where I work on projects that combine technical efficiency with visually striking design.</p>
+            <p>I'm a frontend developer with a solid foundation in HTML, CSS, and JavaScript, and expertise in modern frameworks like React and Node.js. My passion lies in creating seamless, responsive interfaces and ensuring that each project delivers an engaging user experience. Currently, I'm a frontend developer at AEO Solicitors, where I work on projects that combine technical efficiency with visually striking design.</p>
             <p>My journey has involved developing full-stack applications for platforms like SkillLink and CoinTracker, where I utilized both frontend and backend skills to build robust and user-friendly solutions. I thrive on learning and implementing the latest technologies, from animations using Framer Motion to real-time chat features with Socket.io.</p>
-            <p>When I'm not coding, I'm exploring new frameworks, working on open-source projects, or brainstorming fresh UI ideas over a cup of coffee. Let’s connect to bring your vision to life through clean, purposeful, and innovative code!</p>
-            
-            <div class="btn-box btns">
-                <!--<a href="#" class="btn">Read More</a>-->
-            </div>
+            <p>When I'm not coding, I'm exploring new frameworks, working on open-source projects, or brainstorming fresh UI ideas over a cup of coffee. Let's connect to bring your vision to life through clean, purposeful, and innovative code!</p>
+            <div class="btn-box btns"></div>
         </div>
     </section>
-    <!-- Education -->
-    <section class="education" id="education">
-        <h2 class="heading"><span>Resume</span></h2>
+
+    <!-- EDUCATION / RESUME SECTION -->
+    <section class="education" id="education" aria-labelledby="education-title">
+        <h2 class="heading" id="education-title"><span>Resume</span></h2>
         <div class="education-row">
             <div class="education-column">
                 <h3 class="title">Certifications</h3>
-
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2017 - 2021</div>
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>2017 - 2021</div>
                             <h3>B.A, PHILOSOPHY.</h3>
                             <p>University of Lagos</p>
                         </div>
                     </div>
-
-
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2021</div>
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>2021</div>
                             <h3>JavaScript Mastery</h3>
                             <p>Udemy</p>
                         </div>
                     </div>
-
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2022 - 2023</div>
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>2022 - 2023</div>
                             <h3>META Front-End Development Professional Certificate</h3>
                             <p>META</p>
                         </div>
                     </div>
-
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class="bx bxs-calendar"></i>2023</div>
+                            <div class="year"><i class="bx bxs-calendar" aria-hidden="true"></i>2023</div>
                             <h3>Programming with JavaScript</h3>
                             <p>Coursera</p>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -123,7 +130,7 @@
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>April 2023 - Feb 2024</div>
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>April 2023 - Feb 2024</div>
                             <h3>Intern as a Junior Developer</h3>
                             <p>Ajayi Technical Company Ltd</p>
                             <ul>
@@ -133,272 +140,238 @@
                             </ul>
                         </div>
                     </div>
-
-                    <div class="education-box">
-                        <div class="education-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>March 2024 - Present</div>
-                                <h3>FullStack Developer</h3>
-                                <p>AEO Solicitors - (NYSC)</p>
-                                <ul>
-                                    <!-- <li>Designed and developed a fully functional e-commerce website using React, Node.js, and MongoDB</li>
-                                    <li>Implemented secure user authentication and payment processing with Paystack integration</li>
-                                    <li>Achieved a 95% client satisfaction rate through effective communication and timely project delivery</li>
-                                     -->
-                                    <li>Maintain user-friendly and responsive web interfaces for legal and client-facing applications</li>
-                                    <li>Collaboration with UI/UX Designers to enhance the user experience and ensure cohesive visual presentation</li>
-                                    <li>Intregration of frontend components with server-side logic to create seamless user experience</li>
-                                </ul>
-                            </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>March 2024 - Present</div>
+                            <h3>FullStack Developer</h3>
+                            <p>AEO Solicitors - (NYSC)</p>
+                            <ul>
+                                <li>Maintain user-friendly and responsive web interfaces for legal and client-facing applications</li>
+                                <li>Collaboration with UI/UX Designers to enhance the user experience and ensure cohesive visual presentation</li>
+                                <li>Integration of frontend components with server-side logic to create seamless user experience</li>
+                            </ul>
                         </div>
-
-                        <div class="education-box">
-                            <div class="education-content">
-                                <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>November 2024</div>
-                                    <h3>FullStack Developer - (Contract) </h3>
-                                    <p>SkillLink</p>
-                                    <ul>
-                                        <li>Single-handedly designed and developed SkillLink, a platform enabling users to connect with skilled artisans.</li>
-                                        <li>Utilized the MERN stack to build a responsive and dynamic web application</li>
-                                        <li>Engineered robust backend systems with RESTful APIs to handle user interactions, data management, and security.</li>
-                                        <li>Ensured data integrity and implemented security measures for safe and reliable user experiences.</li>
-                                        <li>Managed end-to-end project development, demonstrating strong problem-solving skills and a commitment to delivering high-quality solutions.</li>
-                                    </ul>
-                                </div> 
-                            </div>
-
-
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' aria-hidden="true"></i>November 2024</div>
+                            <h3>FullStack Developer - (Contract)</h3>
+                            <p>SkillLink</p>
+                            <ul>
+                                <li>Single-handedly designed and developed SkillLink, a platform enabling users to connect with skilled artisans.</li>
+                                <li>Utilized the MERN stack to build a responsive and dynamic web application</li>
+                                <li>Engineered robust backend systems with RESTful APIs to handle user interactions, data management, and security.</li>
+                                <li>Ensured data integrity and implemented security measures for safe and reliable user experiences.</li>
+                                <li>Managed end-to-end project development, demonstrating strong problem-solving skills and a commitment to delivering high-quality solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- SKILLS -->
-    <section class="skills" id="skills">
-        <h2 class="heading"><span>Statistics</span></h2>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+        <h2 class="heading" id="skills-title"><span>Statistics</span></h2>
         <div class="skills-row">
             <div class="skills-column">
                 <div class="skills-box">
                     <div class="skills-content">
-                        <div class="progress">
-                            <h3>HTML <span>90%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>CSS <span>95%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>JavaScript <span>94%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>React <span>90%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>Python <span>85%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>Git<span>80%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-                        <div class="progress">
-                            <h3>NodeJS<span>85%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-                        <div class="progress">
-                            <h3>MongoDB<span>90%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-                        
+                        <div class="progress"><h3>HTML <span>90%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>CSS <span>95%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>JavaScript <span>94%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>React <span>90%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>Python <span>85%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>Git <span>80%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>NodeJS <span>85%</span></h3><div class="bar"><span></span></div></div>
+                        <div class="progress"><h3>MongoDB <span>90%</span></h3><div class="bar"><span></span></div></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Project AI -->
-    <section class="project" id="project">
-        <h1 class="heading">Projects</h1>
+    <!-- PROJECTS SECTION -->
+    <section class="project" id="project" aria-labelledby="project-title">
+        <h1 class="heading" id="project-title">Projects</h1>
         <div class="project-grid">
-            <div class="container">
-                <div class="container-header">Palatial - Food Delivery & Event Planning </div>
-                <img src="images/palatial.png" alt="Palatial - Food Delivery and Event Planning Platform" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">A comprehensive full-stack platform for food delivery and event planning. It also incorporates secure payment integration and admin controls for efficient event management and also calendly for meeting shcedule</p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Express</span>
-                        <span>MongoDB</span>
-                        <span>Paystack</span>
-                        <span>Calendly</span>
+
+            <!-- Project 1: Palatial -->
+            <a href="https://palatial.onrender.com" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View Palatial project - Food Delivery and Event Planning Platform">
+                <div class="container">
+                    <div class="container-header">Palatial - Food Delivery & Event Planning</div>
+                    <img src="images/palatial.png" alt="Palatial - Food Delivery and Event Planning Platform" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A comprehensive full-stack platform for food delivery and event planning. It also incorporates secure payment integration and admin controls for efficient event management and also calendly for meeting schedule.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Paystack</span><span>Calendly</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Full e-commerce capabilities with delivery options</li>
+                            <li>Dynamic admin dashboard for managing events and orders</li>
+                            <li>Notifications, real-time updates, and interactive map integration</li>
+                        </ul>
                     </div>
-
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Full e-commerce capabilities with delivery options</li>
-                        <li>Dynamic admin dashboard for managing events and orders</li>
-                        <li>Notifications, real-time updates, and interactive map integration</li>
-                    </ul>
                 </div>
-                <a href="https://palatial.onrender.com" target="_blank">View Project</a>
-            </div>
+            </a>
 
-            <div class="container">
-                <div class="container-header">Paragon Hub - E-commerce with Admin Management
-                </div>
-                <img src="images/paragon.png" alt="Paragon Hub - E-commerce Website" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">A robust e-commerce website with an admin panel for streamlined product and order management. Built using the MERN stack, it provides a user-friendly shopping experience with features tailored for store managers and shoppers alike.</p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>MongoDB</span>
-                        <span>Express</span>
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Axios</span>
+            <!-- Project 2: Paragon Hub -->
+            <a href="https://paragonhub.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View Paragon Hub project - E-commerce Website">
+                <div class="container">
+                    <div class="container-header">Paragon Hub - E-commerce with Admin Management</div>
+                    <img src="images/paragon.png" alt="Paragon Hub - E-commerce Website" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A robust e-commerce website with an admin panel for streamlined product and order management. Built using the MERN stack, it provides a user-friendly shopping experience with features tailored for store managers and shoppers alike.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span><span>Axios</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Admin panel for inventory and order management</li>
+                            <li>Real-time product updates with React Toastify notifications</li>
+                            <li>Secure payment gateway integration</li>
+                        </ul>
                     </div>
-                    
-
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Admin panel for inventory and order management</li>
-                        <li>Real-time product updates with React Toastify notifications</li>
-                        <li>Secure payment gateway integration</li>
-                    </ul>
                 </div>
-                <a href="https://paragonhub.vercel.app/" target="_blank">View Project</a>
-            </div>
+            </a>
 
-            <div class="container">
-                <div class="container-header">SkillLink - Artisans Booking App</div>
-                <img src="images/skill.png" alt="SkillLink - Artisan Services Platform" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">A full-stack platform that connects skilled artisans with clients, providing a marketplace for booking services across multiple categories. It includes a three-tier authentication system for users, clients, and artisans, creating a secure and engaging environment.</p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>MongoDB</span>
-                        <span>Express</span>
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>Socket.io</span>
-                        <span>Tailwind CSS</span>
-                        <span>Framer Motion</span>
+            <!-- Project 3: SkillLink -->
+            <a href="https://skillink.onrender.com" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View SkillLink project - Artisan Services Platform">
+                <div class="container">
+                    <div class="container-header">SkillLink - Artisans Booking App</div>
+                    <img src="images/skill.png" alt="SkillLink - Artisan Services Platform" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A full-stack platform that connects skilled artisans with clients, providing a marketplace for booking services across multiple categories. It includes a three-tier authentication system for users, clients, and artisans, creating a secure and engaging environment.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span><span>Socket.io</span><span>Tailwind CSS</span><span>Framer Motion</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Three levels of authentication for role-based access</li>
+                            <li>Real-time chat functionality for user-artisan communication</li>
+                            <li>Rating and review system for feedback on services</li>
+                        </ul>
                     </div>
-
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Three levels of authentication for role-based access</li>
-                        <li>Real-time chat functionality for user-artisan communication</li>
-                        <li>Rating and review system for feedback on services</li>
-                    </ul>
                 </div>
-                <a href="https://skillink.onrender.com" target="_blank">View Project</a>
-            </div>
+            </a>
 
-            <div class="container">
-                <div class="container-header">PalmsBeauty - Beauty salon with Admin Panel</div>
-                <img src="images/Palmsbeauty.png" alt="SkillLink - Artisan Services Platform" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">PalmsBeauty is a full-stack appointment booking platform in St. John's, NL. It lets clients book beauty services while the admin panel manages appointments and business operations </p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>MongoDB</span>
-                        <span>Express</span>
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <!-- <span>Socket.io</span> -->
-                        <span>Tailwind CSS</span>
-                        <span>Framer Motion</span>
+            <!-- Project 4: PalmsBeauty -->
+            <a href="https://palmsbeautystore.onrender.com" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View PalmsBeauty project - Beauty Salon Appointment Platform">
+                <div class="container">
+                    <div class="container-header">PalmsBeauty - Beauty Salon with Admin Panel</div>
+                    <img src="images/Palmsbeauty.png" alt="PalmsBeauty - Beauty salon appointment platform" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">PalmsBeauty is a full-stack appointment booking platform in St. John's, NL. It lets clients book beauty services while the admin panel manages appointments and business operations.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span><span>Tailwind CSS</span><span>Framer Motion</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Easy appointment booking for beauty services</li>
+                            <li>Admin panel for managing bookings and clients</li>
+                            <li>Secure user authentication for clients and admins</li>
+                            <li>Automated notifications for appointment confirmations</li>
+                            <li>Responsive design for seamless mobile and desktop use</li>
+                        </ul>
                     </div>
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Easy appointment booking for beauty services</li>
-                        <li>Admin panel for managing bookings and clients</li>
-                        <li>Secure user authentication for clients and admins</li>
-                        <li>Automated notifications for appointment confirmations</li>
-                        <li>Responsive design for seamless mobile and desktop use</li>
-                    </ul>
                 </div>
-                <a href="https://palmsbeautystore.onrender.com" target="_blank">View Project</a>
-            </div>
+            </a>
 
-            <div class="container">
-                <div class="container-header">Cointracker - Cryptocurrency Tracking Website </div>
-                <img src="images/cointracker.png" alt="Cointracker - Cryptocurrency Tracking Platform" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">A website that offers real-time updates on cryptocurrency, providing insights and trends in the market. Designed with a user-friendly interface for easy navigation and market tracking.</p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>React</span>
-                        <span>API Integration</span>
+            <!-- Project 5: AdminElectrack -->
+            <a href="https://adminelectrack.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View AdminElectrack project - Admin Dashboard">
+                <div class="container">
+                    <div class="container-header">AdminElectrack - Admin Dashboard</div>
+                    <img src="images/adminel.png" alt="AdminElectrack - Admin dashboard" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A modern admin dashboard built with React and Vite, featuring dynamic data visualization, user management, and analytics. Designed for efficient backend monitoring and control.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>React</span><span>Vite</span><span>Chart.js</span><span>Tailwind CSS</span><span>Recharts</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Interactive charts and data visualization</li>
+                            <li>User and role management interface</li>
+                            <li>Real-time analytics dashboard</li>
+                            <li>Fully responsive layout</li>
+                        </ul>
                     </div>
-
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Real-time data on cryptocurrency prices and market trends</li>
-                        <li>User-friendly interface designed for easy navigation</li>
-                        <li>Comprehensive market tracking capabilities</li>
-                    </ul>
                 </div>
-                <a href="https://cointracker-smoky.vercel.app/" target="_blank">View Project</a>
-            </div>
-            <div class="container">
-                <div class="container-header">Benchat - A Real-Time Chat App</div>
-                <img src="images/benchat.png" alt="Cointracker - Cryptocurrency Tracking Platform" />
-                <div class="project-details">
-                    <h3>Description</h3>
-                    <p class="project-description">A chat application that offers secure communication and authentication via Firebase, designed for real-time, interactive user conversations.</p>
-                    
-                    <h3>Technologies Used</h3>
-                    <div class="technologies">
-                        <span>React</span>
-                        <span>Firebase Authentication</span>
-                        <span>Firestore</span>
+            </a>
+
+            <!-- Project 6: HonCorneliusOjelabi -->
+            <a href="https://www.honcorneliusojelabi.com/" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View Hon Cornelius Ojelabi Official Website">
+                <div class="container">
+                    <div class="container-header">Hon. Cornelius Ojelabi - Official Website</div>
+                    <img src="images/ojelabi.png" alt="Hon. Cornelius Ojelabi official website" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A professional portfolio and campaign website for Hon. Cornelius Ojelabi. It showcases his political vision, biography, achievements, and provides a platform for community engagement.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>React</span><span>Tailwind CSS</span><span>Framer Motion</span><span>EmailJS</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Clean, modern, and responsive design</li>
+                            <li>Biography and achievement highlights</li>
+                            <li>Contact form with EmailJS integration</li>
+                            <li>Smooth animations and transitions</li>
+                        </ul>
                     </div>
-
-                    <h3>Features</h3>
-                    <ul class="features">
-                        <li>Firebase authentication for secure user login</li>
-                        <li>User-friendly interface designed for easy navigation</li>
-                        <li>Real-time messaging and user status updates</li>
-                    </ul>
                 </div>
-                <a href="https://benchat.vercel.app" target="_blank">View Project</a>
-            </div>
+            </a>
+
+            <!-- Project 7: CoinTracker -->
+            <a href="https://cointracker-smoky.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View CoinTracker project - Cryptocurrency Tracking Platform">
+                <div class="container">
+                    <div class="container-header">Cointracker - Cryptocurrency Tracking Website</div>
+                    <img src="images/cointracker.png" alt="Cointracker - Cryptocurrency Tracking Platform" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A website that offers real-time updates on cryptocurrency, providing insights and trends in the market. Designed with a user-friendly interface for easy navigation and market tracking.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>React</span><span>API Integration</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Real-time data on cryptocurrency prices and market trends</li>
+                            <li>User-friendly interface designed for easy navigation</li>
+                            <li>Comprehensive market tracking capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 8: Benchat -->
+            <a href="https://benchat.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card-link" aria-label="View Benchat project - Real-Time Chat Application">
+                <div class="container">
+                    <div class="container-header">Benchat - A Real-Time Chat App</div>
+                    <img src="images/benchat.png" alt="Benchat - Real-Time Chat Application" loading="lazy" />
+                    <div class="project-details">
+                        <h3>Description</h3>
+                        <p class="project-description">A chat application that offers secure communication and authentication via Firebase, designed for real-time, interactive user conversations.</p>
+                        <h3>Technologies Used</h3>
+                        <div class="technologies"><span>React</span><span>Firebase Authentication</span><span>Firestore</span></div>
+                        <h3>Features</h3>
+                        <ul class="features">
+                            <li>Firebase authentication for secure user login</li>
+                            <li>User-friendly interface designed for easy navigation</li>
+                            <li>Real-time messaging and user status updates</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
         </div>
     </section>
 
-
-
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
         <div class="footer-text">
-            <!-- <p>Developed by Ojeba Ebenezer</p> -->
+            <p>&copy; 2025 Ebenezer Ojeba. All rights reserved.</p>
         </div>
-        
     </footer>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
