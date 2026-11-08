@@ -11,6 +11,32 @@
 - LinkedIn: https://www.linkedin.com/in/ebenezer-ojeba-12b3b2281
 - Contact: https://ebenezerojeba.vercel.app/contact/
 
+## Quick facts
+
+### Who is Ebenezer Ojeba?
+
+Ebenezer Ojeba is a full-stack software developer based in Lagos, Nigeria, and the founder of OJ Tech Solution. He builds web applications, SaaS products, AI-powered platforms, e-commerce sites and business management systems for startups, businesses and organisations.
+
+### What has Ebenezer Ojeba built?
+
+His projects include GetConfident, an AI impromptu speaking coach; Homebase, a rental platform for Lagos landlords and tenants; SkillLink, an artisan booking marketplace; PalmsBeauty, a salon booking system; the APC Lagos Digital Management System and APC Lagos information platform; and the official website of Hon. Cornelius Ojelabi.
+
+### What technologies does Ebenezer Ojeba work with?
+
+He works mainly with HTML, CSS, JavaScript, React, Next.js and Tailwind CSS on the frontend, Node.js, Express.js and REST APIs on the backend, and MongoDB for data. He integrates payments with Paystack and AI features with the OpenAI API, and deploys to Vercel and Render.
+
+### What is OJ Tech Solution?
+
+OJ Tech Solution is the software development business of Ebenezer Ojeba, based in Lagos, Nigeria. It offers full-stack web development, custom web applications, SaaS development, AI-powered applications, e-commerce development, business management systems, API and backend development, and website development and redesign.
+
+### Does Ebenezer Ojeba work with clients outside Nigeria?
+
+Yes. He is based in Lagos and works remotely with clients in Nigeria and other countries.
+
+### How can I hire Ebenezer Ojeba?
+
+Send a project enquiry through the contact page at ebenezerojeba.vercel.app/contact, or message him on WhatsApp. You can also connect with him on LinkedIn or see his code on GitHub (github.com/ebenezerojeba).
+
 ## Services
 
 - [Full-Stack Web Development](https://ebenezerojeba.vercel.app/services/full-stack-web-development/): Production web apps with accounts, dashboards, APIs, payments and an admin area, built end to end.
