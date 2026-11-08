@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PalmsBeauty: Salon Booking Platform Case Study | Ebenezer Ojeba</title>
+  <meta name="description" content="Case study: PalmsBeauty, a beauty salon appointment booking platform with an admin dashboard, built by Ebenezer Ojeba with the MERN stack and Tailwind CSS.">
+  <meta name="author" content="Ebenezer Ojeba">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://ebenezerojeba.vercel.app/projects/palmsbeauty/">
+  
+  <meta name="theme-color" content="#1b1916">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Ebenezer Ojeba">
+  <meta property="og:locale" content="en_NG">
+  <meta property="og:title" content="PalmsBeauty: Salon Booking Platform Case Study | Ebenezer Ojeba">
+  <meta property="og:description" content="Case study: PalmsBeauty, a beauty salon appointment booking platform with an admin dashboard, built by Ebenezer Ojeba with the MERN stack and Tailwind CSS.">
+  <meta property="og:url" content="https://ebenezerojeba.vercel.app/projects/palmsbeauty/">
+  <meta property="og:image" content="https://ebenezerojeba.vercel.app/assets/img/projects/palmsbeauty-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PalmsBeauty admin panel dashboard overview showing completed, cancelled and total appointment counts">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@Ebeneze92153397">
+  <meta name="twitter:title" content="PalmsBeauty: Salon Booking Platform Case Study | Ebenezer Ojeba">
+  <meta name="twitter:description" content="Case study: PalmsBeauty, a beauty salon appointment booking platform with an admin dashboard, built by Ebenezer Ojeba with the MERN stack and Tailwind CSS.">
+  <meta name="twitter:image" content="https://ebenezerojeba.vercel.app/assets/img/projects/palmsbeauty-og.jpg">
+  <meta name="twitter:image:alt" content="PalmsBeauty admin panel dashboard overview showing completed, cancelled and total appointment counts">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/img/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="preload" href="/assets/fonts/ysabeau-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="/assets/img/projects/palmsbeauty-1200.webp" imagesrcset="/assets/img/projects/palmsbeauty-640.webp 640w, /assets/img/projects/palmsbeauty-1200.webp 1200w" imagesizes="(min-width: 62em) 46rem, 100vw" fetchpriority="high">
+  <link rel="stylesheet" href="/style.css?v=8da156ff">
+  <script src="/script.js?v=8da156ff" defer></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ebenezerojeba.vercel.app/#person",
+      "name": "Ebenezer Ojeba",
+      "givenName": "Ebenezer",
+      "familyName": "Ojeba",
+      "jobTitle": "Full-Stack Software Developer",
+      "description": "Ebenezer Ojeba is a full-stack software developer based in Lagos, Nigeria, and the founder of OJ Tech Solution. He builds scalable web applications, AI-powered platforms, SaaS products, business management systems, e-commerce platforms and custom software, working mainly with React, Next.js, Node.js, Express and MongoDB.",
+      "url": "https://ebenezerojeba.vercel.app/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://ebenezerojeba.vercel.app/assets/img/ebenezer-ojeba-portrait-800.jpg",
+        "width": 800,
+        "height": 1000
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressCountry": "NG"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Lagos"
+      },
+      "worksFor": {
+        "@id": "https://ebenezerojeba.vercel.app/#organization"
+      },
+      "knowsAbout": [
+        "Full-stack web development",
+        "Custom web applications",
+        "SaaS development",
+        "AI-powered applications",
+        "E-commerce development",
+        "Business management systems",
+        "API and backend development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "MongoDB",
+        "Git",
+        "Payment integration",
+        "AI integration",
+        "Web deployment"
+      ],
+      "sameAs": [
+        "https://github.com/ebenezerojeba",
+        "https://www.linkedin.com/in/ebenezer-ojeba-12b3b2281",
+        "https://x.com/Ebeneze92153397"
+      ]
+    },
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://ebenezerojeba.vercel.app/#organization",
+      "name": "OJ Tech Solution",
+      "url": "https://ebenezerojeba.vercel.app/",
+      "description": "OJ Tech Solution is the software development business of Ebenezer Ojeba. It designs and builds full-stack web applications, SaaS platforms, AI-powered applications, business management systems, e-commerce platforms and custom software.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ebenezerojeba.vercel.app/assets/img/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://ebenezerojeba.vercel.app/assets/img/og-default.jpg",
+      "founder": {
+        "@id": "https://ebenezerojeba.vercel.app/#person"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos",
+        "addressCountry": "NG"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Nigeria"
+        },
+        "Worldwide (remote)"
+      ],
+      "knowsAbout": [
+        "Full-Stack Web Development",
+        "Custom Web Application Development",
+        "SaaS Platform Development",
+        "AI-Powered Application Development",
+        "E-commerce Website & Platform Development",
+        "Business Management System Development",
+        "API & Backend Development",
+        "Website Development & Redesign"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Software development services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Full-Stack Web Development",
+              "url": "https://ebenezerojeba.vercel.app/services/full-stack-web-development/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Web Application Development",
+              "url": "https://ebenezerojeba.vercel.app/services/custom-web-applications/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SaaS Platform Development",
+              "url": "https://ebenezerojeba.vercel.app/services/saas-development/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Powered Application Development",
+              "url": "https://ebenezerojeba.vercel.app/services/ai-application-development/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "E-commerce Website & Platform Development",
+              "url": "https://ebenezerojeba.vercel.app/services/ecommerce-development/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Management System Development",
+              "url": "https://ebenezerojeba.vercel.app/services/business-management-systems/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "API & Backend Development",
+              "url": "https://ebenezerojeba.vercel.app/services/api-backend-development/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website Development & Redesign",
+              "url": "https://ebenezerojeba.vercel.app/services/website-development-redesign/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ebenezerojeba.vercel.app/#website",
+      "url": "https://ebenezerojeba.vercel.app/",
+      "name": "Ebenezer Ojeba",
+      "alternateName": [
+        "Ebenezer Ojeba — Full-Stack Software Developer",
+        "OJ Tech Solution"
+      ],
+      "description": "Ebenezer Ojeba is a full-stack software developer based in Lagos, Nigeria, and the founder of OJ Tech Solution. He builds scalable web applications, AI-powered platforms, SaaS products, business management systems, e-commerce platforms and custom software, working mainly with React, Next.js, Node.js, Express and MongoDB.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://ebenezerojeba.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#webpage",
+      "url": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/",
+      "name": "PalmsBeauty: Salon Booking Platform Case Study | Ebenezer Ojeba",
+      "description": "Case study: PalmsBeauty, a beauty salon appointment booking platform with an admin dashboard, built by Ebenezer Ojeba with the MERN stack and Tailwind CSS.",
+      "isPartOf": {
+        "@id": "https://ebenezerojeba.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://ebenezerojeba.vercel.app/#person"
+      },
+      "inLanguage": "en",
+      "dateModified": "2026-11-08",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://ebenezerojeba.vercel.app/assets/img/projects/palmsbeauty-og.jpg"
+      },
+      "mainEntity": {
+        "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#project"
+      },
+      "breadcrumb": {
+        "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#breadcrumb"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#project",
+      "name": "PalmsBeauty",
+      "headline": "PalmsBeauty: Booking system",
+      "description": "An appointment booking platform for a beauty salon in St. John's, Newfoundland, with an admin panel for managing bookings.",
+      "image": "https://ebenezerojeba.vercel.app/assets/img/projects/palmsbeauty-og.jpg",
+      "creator": {
+        "@id": "https://ebenezerojeba.vercel.app/#person"
+      },
+      "author": {
+        "@id": "https://ebenezerojeba.vercel.app/#person"
+      },
+      "keywords": "MongoDB, Express, React, Node.js, Tailwind CSS, Framer Motion",
+      "genre": "Booking system",
+      "mainEntityOfPage": {
+        "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#webpage"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ebenezerojeba.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://ebenezerojeba.vercel.app/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "PalmsBeauty",
+          "item": "https://ebenezerojeba.vercel.app/projects/palmsbeauty/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/" aria-label="Ebenezer Ojeba, home">
+        <span class="brand__mark" aria-hidden="true">Oj<span>.</span></span>
+        <span class="brand__text">Ebenezer Ojeba<small>Full-Stack Software Developer</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="icon-open"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span><span class="icon-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/projects/" aria-current="page">Projects</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn--primary" href="/contact/#enquiry">Hire me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <article>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/projects/">Projects</a></li><li><span aria-current="page">PalmsBeauty</span></li></ol></nav>
+        <p class="eyebrow">Case study · Booking system</p>
+        <h1>PalmsBeauty</h1>
+        <p class="lead">An appointment booking platform for a beauty salon in St. John's, Newfoundland, with an admin panel for managing bookings.</p>
+        
+        <p class="note">The live demo is currently offline.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container layout">
+        <div class="prose">
+          <figure class="shot"><img src="/assets/img/projects/palmsbeauty-1200.webp" srcset="/assets/img/projects/palmsbeauty-640.webp 640w, /assets/img/projects/palmsbeauty-1200.webp 1200w" sizes="(min-width: 62em) 46rem, 100vw" width="1200" height="750" alt="PalmsBeauty admin panel dashboard overview showing completed, cancelled and total appointment counts" fetchpriority="high" decoding="async"><figcaption>PalmsBeauty admin panel. Customer details are blurred.</figcaption></figure>
+          <h2>Overview</h2>
+          <p>PalmsBeauty is a full-stack appointment booking platform for a beauty salon in St. John's, Newfoundland and Labrador, Canada. Clients book beauty services online, and the salon manages appointments and day-to-day operations from an admin panel.</p>
+          <h2>The problem it solves</h2>
+          <p>Taking bookings by phone and direct message makes it easy to double-book or lose track of appointments. PalmsBeauty gives clients self-service booking and gives the salon one dashboard for every appointment.</p>
+          <h2>My contribution</h2>
+          <p>Full-stack development of the booking site, admin panel and backend API.</p>
+          <h2>Key features</h2>
+          <ul><li>Online appointment booking for beauty services.</li><li>Admin panel with an overview of completed, cancelled and total appointments, and a list of the latest bookings to confirm or cancel.</li><li>Secure authentication for clients and administrators.</li><li>Automated notifications to confirm appointments.</li><li>Responsive design for mobile and desktop.</li></ul>
+          <h2>Architecture overview</h2>
+          <ul><li>MERN stack: React frontend and admin panel with Tailwind CSS and Framer Motion, and a Node.js / Express API with MongoDB.</li><li>Separate client-facing site and admin interface sharing one backend.</li></ul>
+          <h2>Technology stack</h2>
+          <ul class="tags"><li>MongoDB</li><li>Express</li><li>React</li><li>Node.js</li><li>Tailwind CSS</li><li>Framer Motion</li></ul>
+        </div>
+        <aside class="layout__aside" aria-label="Project details">
+          <div class="aside-card">
+            <h2>Project details</h2>
+            <dl>
+              <dt>Type</dt><dd>Booking system</dd>
+              <dt>Role</dt><dd>Full-stack development of the booking site, admin panel and backend API.</dd>
+              
+              <dt>Live site</dt><dd>Currently offline</dd>
+              
+            </dl>
+          </div>
+          <nav class="aside-card" aria-label="Related services">
+            <h2>Related services</h2>
+            <ul class="prose"><li><a href="/services/business-management-systems/">Business Management System Development</a></li><li><a href="/services/full-stack-web-development/">Full-Stack Web Development</a></li></ul>
+          </nav>
+          <div class="aside-card">
+            <h2>Need something similar?</h2>
+            <a class="btn btn--primary" href="/contact/#enquiry">Start a project</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+    </article>
+    <section class="section section--alt" aria-labelledby="next-title">
+      <div class="container">
+        <div class="section__head"><p class="eyebrow">Next case study</p><h2 id="next-title" class="visually-hidden">Next case study</h2></div>
+        <div class="grid grid--2">
+        <article class="card project-card project-card--wide" data-reveal>
+          <div class="project-card__media"><img src="/assets/img/projects/getconfident-1200.webp" srcset="/assets/img/projects/getconfident-640.webp 640w, /assets/img/projects/getconfident-1200.webp 1200w" sizes="(min-width: 62em) 55vw, 100vw" width="1200" height="750" alt="GetConfident homepage: 'Think fast. Speak with confidence.' with a recording card and an AI feedback score panel" loading="lazy" decoding="async"></div>
+          <div class="project-card__body">
+            <p class="project-card__cat">AI-powered SaaS</p>
+            <h3>GetConfident</h3>
+            <p>An AI impromptu speaking coach that gives instant feedback on clarity, structure, confidence, pace and filler words.</p>
+            <ul class="tags"><li>Next.js 15</li><li>React 19</li><li>TypeScript</li><li>Tailwind CSS</li><li>PostgreSQL</li><li>Prisma</li><li>OpenAI API</li></ul>
+            <div class="project-card__links"><a class="card__link" href="/projects/getconfident/">Read the case study<span class="visually-hidden">: GetConfident</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+          </div>
+        </article>
+        </div>
+        <p><a class="btn btn--ghost" href="/projects/">All projects <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="/"><span class="brand__mark" aria-hidden="true">Oj<span>.</span></span><span class="brand__text">Ebenezer Ojeba<small>OJ Tech Solution</small></span></a>
+          <p>Full-stack software developer in Lagos, Nigeria, building web applications, SaaS platforms, AI-powered applications and business systems for clients in Nigeria and abroad.</p>
+          <ul class="social">
+            <li><a href="https://github.com/ebenezerojeba" target="_blank" rel="noopener me" aria-label="GitHub (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/ebenezer-ojeba-12b3b2281" target="_blank" rel="noopener me" aria-label="LinkedIn (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></a></li>
+            <li><a href="https://x.com/Ebeneze92153397" target="_blank" rel="noopener me" aria-label="X (Twitter) (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.21-6.82-5.97 6.82H1.68l7.73-8.84L1.25 2.25h6.82l4.71 6.23 5.46-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/></svg></a></li>
+            <li><a href="https://wa.link/sg3frs" target="_blank" rel="noopener me" aria-label="WhatsApp (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.48.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35Zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.82 9.82 0 0 1 6.99 2.9 9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88Zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.42Z"/></svg></a></li>
+            <li><a href="https://www.instagram.com/p/CNxIvTmjQ40/" target="_blank" rel="noopener me" aria-label="Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a></li>
+          </ul>
+        </div>
+        <nav aria-label="Services">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="/services/full-stack-web-development/">Full-Stack Development</a></li>
+            <li><a href="/services/custom-web-applications/">Custom Web Apps</a></li>
+            <li><a href="/services/saas-development/">SaaS Platforms</a></li>
+            <li><a href="/services/ai-application-development/">AI Applications</a></li>
+            <li><a href="/services/ecommerce-development/">E-commerce</a></li>
+            <li><a href="/services/business-management-systems/">Business Systems</a></li>
+            <li><a href="/services/api-backend-development/">APIs &amp; Backends</a></li>
+            <li><a href="/services/website-development-redesign/">Websites &amp; Redesigns</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Featured projects">
+          <h2>Projects</h2>
+          <ul>
+            <li><a href="/projects/getconfident/">GetConfident</a></li>
+            <li><a href="/projects/homebase/">Homebase</a></li>
+            <li><a href="/projects/skillink/">SkillLink</a></li>
+            <li><a href="/projects/apc-lagos-digital-management-system/">APC Lagos DMS</a></li>
+            <li><a href="/projects/apc-lagos/">APC Lagos Platform</a></li>
+            <li><a href="/projects/">All projects</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Site">
+          <h2>Site</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/Ebenezer-Ojeba.pdf" download="Ebenezer-Ojeba-CV.pdf">Download CV (PDF)</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Ebenezer Ojeba · OJ Tech Solution. All rights reserved.</span>
+        <span>Lagos, Nigeria</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

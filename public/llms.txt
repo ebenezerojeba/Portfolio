@@ -1,0 +1,71 @@
+# Ebenezer Ojeba
+
+> Ebenezer Ojeba is a full-stack software developer based in Lagos, Nigeria, and the founder of OJ Tech Solution. He builds scalable web applications, AI-powered platforms, SaaS products, business management systems, e-commerce platforms and custom software, working mainly with React, Next.js, Node.js, Express and MongoDB.
+
+- Name: Ebenezer Ojeba
+- Title: Full-Stack Software Developer
+- Business: OJ Tech Solution (the business name Ebenezer Ojeba works under; he is its founder)
+- Location: Lagos, Nigeria. Works with clients in Nigeria and remotely worldwide.
+- Website: https://ebenezerojeba.vercel.app/
+- GitHub: https://github.com/ebenezerojeba
+- LinkedIn: https://www.linkedin.com/in/ebenezer-ojeba-12b3b2281
+- Contact: https://ebenezerojeba.vercel.app/contact/
+
+## Services
+
+- [Full-Stack Web Development](https://ebenezerojeba.vercel.app/services/full-stack-web-development/): Production web apps with accounts, dashboards, APIs, payments and an admin area, built end to end.
+- [Custom Web Application Development](https://ebenezerojeba.vercel.app/services/custom-web-applications/): Websites, portals, platforms and internal tools designed around how your organisation actually works.
+- [SaaS Platform Development](https://ebenezerojeba.vercel.app/services/saas-development/): Multi-user software products with onboarding, user dashboards, notifications and per-account data security.
+- [AI-Powered Application Development](https://ebenezerojeba.vercel.app/services/ai-application-development/): Products that use large language models for analysis, feedback and automation, with output you can trust.
+- [E-commerce Website & Platform Development](https://ebenezerojeba.vercel.app/services/ecommerce-development/): Online stores with catalogues, carts, Paystack checkout and an admin panel for products and orders.
+- [Business Management System Development](https://ebenezerojeba.vercel.app/services/business-management-systems/): Registration, booking, approval and record-keeping systems with role-based dashboards and reports.
+- [API & Backend Development](https://ebenezerojeba.vercel.app/services/api-backend-development/): Secure REST APIs and Node.js backends for web and mobile apps: auth, validation, payments and webhooks.
+- [Website Development & Redesign](https://ebenezerojeba.vercel.app/services/website-development-redesign/): Fast, accessible, mobile-first websites, and redesigns of sites that have become slow or dated.
+
+## Case studies
+
+- [GetConfident](https://ebenezerojeba.vercel.app/projects/getconfident/): An AI impromptu speaking coach that gives instant feedback on clarity, structure, confidence, pace and filler words. Stack: Next.js 15, React 19, TypeScript, Tailwind CSS, PostgreSQL, Prisma, OpenAI API, Zod, Vitest, Playwright.
+- [Homebase](https://ebenezerojeba.vercel.app/projects/homebase/): A mobile-first rental platform for Lagos: rent directly from landlords, with a shared tenancy record for landlords and tenants. Stack: Next.js 16, React 19, TypeScript, Tailwind CSS, MongoDB, Mongoose, Zod, Paystack, Cloudinary, Server-Sent Events, Vitest, Playwright.
+- [APC Lagos Digital Management System](https://ebenezerojeba.vercel.app/projects/apc-lagos-digital-management-system/): Registration and management of polling unit agents and collation officers across Lagos State, with document upload, approvals and reports. Stack: React 19, Vite, Tailwind CSS, React Router, React Hook Form, Zod, Recharts, Express 5, MongoDB, Mongoose, JWT (HTTP-only cookies), Helmet, Nodemailer.
+- [APC Lagos Information Platform](https://ebenezerojeba.vercel.app/projects/apc-lagos/): The digital information platform for the All Progressives Congress, Lagos State Chapter: leadership, 57 councils, representatives, candidates and news. Stack: Next.js 15, TypeScript, Tailwind CSS, Framer Motion, Three.js, React Three Fiber, Zod.
+- [SkillLink](https://ebenezerojeba.vercel.app/projects/skillink/): A marketplace that connects clients with skilled artisans, with bookings, real-time chat and reviews. Stack: MongoDB, Express, React, Node.js, Socket.io, Tailwind CSS, Framer Motion.
+- [Hon. Cornelius Ojelabi Official Website](https://ebenezerojeba.vercel.app/projects/hon-cornelius-ojelabi-website/): The official website of the APC Lagos State Chairman, with a separate admin dashboard for managing content. Stack: React 19, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express, MongoDB, JWT, Helmet.
+- [PalmsBeauty](https://ebenezerojeba.vercel.app/projects/palmsbeauty/): An appointment booking platform for a beauty salon in St. John's, Newfoundland, with an admin panel for managing bookings. Stack: MongoDB, Express, React, Node.js, Tailwind CSS, Framer Motion.
+
+## Other projects
+
+- Paragon Hub (https://paragonhub.vercel.app): MERN e-commerce site with a separate admin panel for inventory and order management, real-time product update notifications and secure payment integration.
+- Palatial (https://palatial.onrender.com): Full-stack food delivery and event planning platform with Paystack payments, delivery options, Calendly meeting scheduling, an admin dashboard for events and orders, notifications and map integration.
+- AdminElectrack (https://adminelectrack.vercel.app): React and Vite admin dashboard with interactive charts, user and role management and a responsive layout.
+- Benchat (https://benchat.vercel.app): Chat application with Firebase authentication, real-time messaging and user status updates.
+- CoinTracker (https://cointracker-smoky.vercel.app): React site showing up-to-date cryptocurrency prices and market trends from a public API.
+
+## Skills
+
+- Frontend: HTML, CSS, JavaScript, React, Next.js, Tailwind CSS
+- Backend: Node.js, Express.js, REST APIs
+- Database: MongoDB
+- Tools & integrations: Git, GitHub, API integrations, Payment integrations (Paystack), AI integrations (OpenAI API), Deployment (Vercel, Render)
+
+## Experience
+
+- Full-Stack Developer, AEO Solicitors (February 2024 – Present)
+- Full-Stack Developer (Contract), SkillLink (November 2024)
+- Frontend Developer (Freelance), Upwork (June 2023 – January 2024)
+- Freelance Software Developer, Fiverr (November 2022 – May 2023)
+- Junior Frontend Developer, Ajayi Technical Company Ltd (March 2022 – October 2022)
+
+## Education
+
+- B.A. Philosophy, University of Lagos
+- Meta Front-End Developer Professional Certificate, Meta (Coursera)
+- Programming with JavaScript, Coursera
+- JavaScript Mastery, Udemy
+
+## Pages
+
+- [About](https://ebenezerojeba.vercel.app/about/)
+- [Services](https://ebenezerojeba.vercel.app/services/)
+- [Projects](https://ebenezerojeba.vercel.app/projects/)
+- [Contact](https://ebenezerojeba.vercel.app/contact/)
+- [CV (PDF)](https://ebenezerojeba.vercel.app/Ebenezer-Ojeba.pdf)

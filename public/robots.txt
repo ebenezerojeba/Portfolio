@@ -1,0 +1,6 @@
+# robots.txt for https://ebenezerojeba.vercel.app
+# All crawlers, including search engines and AI search crawlers, may access the site.
+User-agent: *
+Allow: /
+
+Sitemap: https://ebenezerojeba.vercel.app/sitemap.xml
