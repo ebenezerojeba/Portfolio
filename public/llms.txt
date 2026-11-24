@@ -19,7 +19,7 @@ Ebenezer Ojeba is a full-stack software developer based in Lagos, Nigeria, and t
 
 ### What has Ebenezer Ojeba built?
 
-His projects include GetConfident, an AI impromptu speaking coach; Homebase, a rental platform for Lagos landlords and tenants; SkillLink, an artisan booking marketplace; PalmsBeauty, a salon booking system; the APC Lagos Digital Management System and APC Lagos information platform; and the official website of Hon. Cornelius Ojelabi.
+His projects include GetConfident, an AI impromptu speaking coach; Homebase, a rental platform for Lagos landlords and tenants; SkillLink, an artisan booking marketplace; Rachellebeautystore, a salon booking system; the APC Lagos Digital Management System and APC Lagos information platform; and the official website of Hon. Cornelius Ojelabi.
 
 ### What technologies does Ebenezer Ojeba work with?
 
@@ -56,7 +56,7 @@ Send a project enquiry through the contact page at ebenezerojeba.vercel.app/cont
 - [APC Lagos Information Platform](https://ebenezerojeba.vercel.app/projects/apc-lagos/): The digital information platform for the All Progressives Congress, Lagos State Chapter: leadership, 57 councils, representatives, candidates and news. Stack: Next.js 15, TypeScript, Tailwind CSS, Framer Motion, Three.js, React Three Fiber, Zod.
 - [SkillLink](https://ebenezerojeba.vercel.app/projects/skillink/): A marketplace that connects clients with skilled artisans, with bookings, real-time chat and reviews. Stack: MongoDB, Express, React, Node.js, Socket.io, Tailwind CSS, Framer Motion.
 - [Hon. Cornelius Ojelabi Official Website](https://ebenezerojeba.vercel.app/projects/hon-cornelius-ojelabi-website/): The official website of the APC Lagos State Chairman, with a separate admin dashboard for managing content. Stack: React 19, Vite, Tailwind CSS, Framer Motion, React Router, Node.js, Express, MongoDB, JWT, Helmet.
-- [PalmsBeauty](https://ebenezerojeba.vercel.app/projects/palmsbeauty/): An appointment booking platform for a beauty salon in St. John's, Newfoundland, with an admin panel for managing bookings. Stack: MongoDB, Express, React, Node.js, Tailwind CSS, Framer Motion.
+- [Rachellebeautystore](https://ebenezerojeba.vercel.app/projects/Rachellebeautystore/): An appointment booking platform for a beauty salon in St. John's, Newfoundland, with an admin panel for managing bookings. Stack: MongoDB, Express, React, Node.js, Tailwind CSS, Framer Motion.
 
 ## Other projects
 
